@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customate AI</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background-color: white;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .announcement-bar {
+            background-color: #FF4500;
+            color: white;
+            padding: 16px 24px;
+            text-align: center;
+            font-size: 15px;
+            line-height: 1.5;
+        }
+
+        .announcement-bar a {
+            color: white;
+            text-decoration: underline;
+            font-weight: 500;
+        }
+
+        .main-content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 60px 20px;
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+
+        .company-logo {
+            max-width: 60px;
+            height: auto;
+        }
+
+        .company-name {
+            max-width: 160px;
+            height: auto;
+        }
+
+        .emoji-container {
+            font-size: 48px;
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+
+        footer {
+            padding: 20px;
+            text-align: right;
+        }
+
+        footer a {
+            color: #666;
+            text-decoration: none;
+            font-size: 14px;
+            transition: color 0.3s ease;
+        }
+
+        footer a:hover {
+            color: #FF4500;
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .logo-container {
+                flex-direction: column;
+                gap: 20px;
+            }
+
+            .company-logo, .company-name {
+                max-width: 100px;
+            }
+
+            .announcement-bar {
+                font-size: 14px;
+                padding: 14px 16px;
+            }
+
+            .emoji-container {
+                font-size: 40px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="announcement-bar">
+        Thank you for your interest in Customate AI! Unfortunately, we have discontinued our offering. If you would like to get in touch with our team, please write to us at <a href="mailto:admin@customate.ai">admin@customate.ai</a>
+    </div>
+
+    <div class="main-content">
+        <div class="logo-container">
+            <img src="Group7072025B.svg" alt="Customate AI Logo" class="company-logo">
+            <img src="Logo0520253.svg" alt="Customate AI" class="company-name">
+        </div>
+        <div class="emoji-container">
+            <span>👋</span>
+            <span>🌱</span>
+        </div>
+    </div>
+
+    <footer>
+        <a href="impressum.html">Impressum</a>
+    </footer>
+</body>
+</html>
